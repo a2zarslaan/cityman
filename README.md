@@ -22,8 +22,7 @@ clone the code repository using below command:
 
 
 ## To set up data Aggregators:
--- run below commands:
-   crontab -e
+-- run the following command: crontab -e
     
 it will open a file add below three lines in it:
 * * * * * python3 <Path to cityman folder>/Aggregators/data_aggregator.py
