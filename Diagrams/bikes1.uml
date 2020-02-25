@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>2a54dc96-7fae-4435-a674-67f27fd78767.DATABASE:bikes</OriginalElement>
+  <nodes>
+    <node x="161.0" y="0.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type</node>
+    <node x="0.0" y="418.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.dartstations</node>
+    <node x="143.0" y="515.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtweather</node>
+    <node x="0.0" y="515.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.future_rtbike</node>
+    <node x="160.0" y="418.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtluas</node>
+    <node x="222.0" y="321.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_migrations</node>
+    <node x="572.0" y="321.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtstation</node>
+    <node x="395.375" y="102.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission</node>
+    <node x="640.0" y="418.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.form</node>
+    <node x="0.0" y="321.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_session</node>
+    <node x="185.0" y="102.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user</node>
+    <node x="570.375" y="102.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group</node>
+    <node x="150.0" y="224.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile</node>
+    <node x="398.0" y="321.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.station</node>
+    <node x="271.0" y="224.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions</node>
+    <node x="320.0" y="418.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.rtdart</node>
+    <node x="480.0" y="418.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.luastations</node>
+    <node x="0.0" y="224.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log</node>
+    <node x="466.0" y="224.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups</node>
+    <node x="609.0" y="224.0">2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+      <point x="-32.5" y="-26.0" />
+      <point x="32.5" y="77.0" />
+      <point x="196.5" y="77.0" />
+      <point x="-35.5" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.user_profile" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+      <point x="0.0" y="-26.0" />
+      <point x="200.5" y="204.0" />
+      <point x="222.875" y="204.0" />
+      <point x="-12.625" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+      <point x="-30.75" y="-26.0" />
+      <point x="496.75" y="194.0" />
+      <point x="273.375" y="194.0" />
+      <point x="37.875" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+      <point x="-43.75" y="-26.0" />
+      <point x="314.75" y="204.0" />
+      <point x="248.125" y="204.0" />
+      <point x="12.625" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_groups" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+      <point x="30.75" y="-26.0" />
+      <point x="558.25" y="204.0" />
+      <point x="595.625" y="204.0" />
+      <point x="-25.25" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_content_type">
+      <point x="0.0" y="-26.0" />
+      <point x="453.875" y="77.0" />
+      <point x="267.5" y="77.0" />
+      <point x="35.5" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+      <point x="-39.75" y="-26.0" />
+      <point x="648.75" y="184.0" />
+      <point x="483.125" y="184.0" />
+      <point x="29.25" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_group">
+      <point x="39.75" y="-26.0" />
+      <point x="728.25" y="174.0" />
+      <point x="646.125" y="174.0" />
+      <point x="25.25" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user_user_permissions" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_permission">
+      <point x="43.75" y="-26.0" />
+      <point x="402.25" y="204.0" />
+      <point x="424.625" y="204.0" />
+      <point x="-29.25" y="26.0" />
+    </edge>
+    <edge source="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.django_admin_log" target="2a54dc96-7fae-4435-a674-67f27fd78767.TABLE:bikes.public.auth_user">
+      <point x="32.5" y="-26.0" />
+      <point x="97.5" y="194.0" />
+      <point x="197.625" y="194.0" />
+      <point x="-37.875" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.751788941091435" x="426.4188381347851" y="177.36177661087396" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+  </Categories>
+</Diagram>
+
