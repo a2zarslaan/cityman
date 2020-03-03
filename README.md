@@ -12,7 +12,7 @@ after downloading the SQL dump (dump.sql) run below command to setup db ( postgr
 
 ## Source code setup
 clone the code repository using below command:
- git clone  https://github.com/premvilas30/CityMan.git
+ git clone  https://github.com/a2zarslaan/cityman.git
 
 ## To run the server run below command
  pip install requirements.txt
